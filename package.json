@@ -1,0 +1,23 @@
+{
+  "name": "greet",
+  "version": "0.0.0",
+  "description": "A simple greeter for Warmup 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "Taffyer",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "dependencies": {
+    "minimist": "0.0.8"
+  }
+}
