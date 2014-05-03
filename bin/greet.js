@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var greet = require("../"),
+var greet = require("../lib"),
     name  = process.argv[2],
     parseArgs = require('minimist');
 
